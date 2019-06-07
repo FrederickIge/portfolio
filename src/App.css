@@ -31,3 +31,9 @@
     transform: rotate(360deg);
   }
 }
+
+
+a:link {color: black !important;}      /* unvisited link */
+a:visited {color: black !important;}   /* visited link */
+a:hover {color: black !important;}     /* mouse over link */
+a:active {color: black !important;}  
