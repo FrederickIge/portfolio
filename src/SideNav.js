@@ -83,6 +83,10 @@ function SideNav() {
           </div>
         </div>
 
+        <div className="mt-4">
+          <a target="_blank" href="chrome-extension://oemmndcbldboiebfnladdacbdfmadadm/https://firebasestorage.googleapis.com/v0/b/delish-prod.appspot.com/o/FrederickIge_resume.pdf?alt=media&token=eb1e1f5c-c825-41ca-b6d0-8a7f7e3ad352">Download Resume</a>
+        </div>
+
         <span title='Hire me' className='d-inline-block f5 rounded-2 text-white bg-green mt-3 py-1 px-2'>
           Available for hire
         </span>

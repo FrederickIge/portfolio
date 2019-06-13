@@ -19,14 +19,14 @@ function App() {
               <div className="col-md-7 col-lg-8 col-xl-9 px-4 py-6 px-lg-7 border-top border-md-top-0" style={{backgroundColor: '#fafbfc'}}>
                 <div className="mx-auto" style={{maxWidth: '900px'}}>
                   <h2 className>Projects</h2>
-                  <p className="f4 mb-4 text-gray">Links to projects and repository Code </p>
+                  <p className="f4 mb-4 text-gray">Links to projects and repository code avaliable </p>
                   
                   <div className="d-sm-flex flex-wrap gutter-condensed mb-4">
                     <div className="col-sm-6 col-md-12 col-lg-6 col-xl-4 mb-3">
                       <div className="github-component height-full text-left border border-gray-light bg-white rounded-1 p-3">
                         <div className=" mb-1">
                           <h3 className=" lh-condensed mb-1">
-                            <a href="https://github.com/thakkaryash94/thakkaryash94.github.io">Delish-us</a>
+                            <a target="_blank" href="https://react-fire-9a99e.firebaseapp.com">Delish-us</a>
                             <br></br>
                             
                           </h3>
@@ -37,12 +37,12 @@ function App() {
 
                         </div>
 
-                        <div style={{minHeight:"100px"}} className="text-gray mb-2 ws-normal"><span className>A yelp clone where users can search for resturants using Google Maps and share thier favorite places with friends.</span></div>
+                        <div style={{minHeight:"100px"}} className="text-gray mb-2 ws-normal"><span className>A Yelp clone where users can search for restaurants using Google Maps and share their favorite places with friends.</span></div>
                         <div style={{minHeight:"100px"}} className="text-gray mb-2 ws-normal"><span className><b>Technologies used:</b> React, Mobx, Firestore, Google Maps API, Bootstrap 4</span></div>
 
                         <div className="d-flex justify-content-around f6">
                         <a  target="_blank" href="https://github.com/FrederickIge/Delish-Us"><FontAwesomeIcon icon={faGithub} className="fa-2x" /></a>
-                        <a  target="_blank" href="https://react-fire-9a99e.firebaseapp.com/dashboard"><FontAwesomeIcon icon={faExternalLinkAlt} className="fa-2x" /></a>
+                        <a  target="_blank" href="https://react-fire-9a99e.firebaseapp.com"><FontAwesomeIcon icon={faExternalLinkAlt} className="fa-2x" /></a>
                         </div>
                       </div>
                     </div>
@@ -50,7 +50,7 @@ function App() {
                       <div className="github-component height-full text-left border border-gray-light bg-white rounded-1 p-3">
                         <div className=" mb-1">
                           <h3 className=" lh-condensed mb-1">
-                            <a href="https://github.com/thakkaryash94/thakkaryash94.github.io">University of Life</a>
+                            <a target="_blank" href="https://university-of-life.firebaseapp.com">University of Life</a>
                             <br></br>
                             
                           </h3>
@@ -59,12 +59,12 @@ function App() {
                           </div>
                         </div>
 
-                        <div style={{minHeight:"100px"}} className="text-gray mb-2 ws-normal"><span className>Financial discovery tool that allows the user to compare the return on investment of varies college and degree choices. </span></div>
-                        <div style={{minHeight:"100px"}} className="text-gray mb-2 ws-normal"><span className><b>Technologies used:</b> React, Mobx, graphQL, Apollo Client, Postgres, Bootstrap 4</span></div>
+                        <div style={{minHeight:"100px"}} className="text-gray mb-2 ws-normal"><span className>Financial discovery tool that allows the user to compare the return on investment of various college and degree choices. </span></div>
+                        <div style={{minHeight:"100px"}} className="text-gray mb-2 ws-normal"><span className><b>Technologies used:</b> React, Mobx, graphQL, Node, AdonisJS, Apollo Client, Postgres, Bootstrap 4</span></div>
 
                         <div className="d-flex justify-content-around f6">
-                        <FontAwesomeIcon icon={faGithub} className="fa-2x" />
-                        <FontAwesomeIcon icon={faExternalLinkAlt} className="fa-2x" />
+                        <a  target="_blank" href="https://github.com/FrederickIge/university-of-life-core"><FontAwesomeIcon icon={faGithub} className="fa-2x" /></a>
+                        <a  target="_blank" href="https://university-of-life.firebaseapp.com/"><FontAwesomeIcon icon={faExternalLinkAlt} className="fa-2x" /></a>
                         </div>
                       </div>
                     </div>
@@ -72,7 +72,7 @@ function App() {
                       <div className="github-component height-full text-left border border-gray-light bg-white rounded-1 p-3">
                         <div className=" mb-1">
                           <h3 className=" lh-condensed mb-1">
-                            <a href="https://github.com/thakkaryash94/thakkaryash94.github.io">BitClaims</a>
+                            <a target="_blank" href="https://frederickige.github.io/bitclaims-landing-page/#/">BitClaims</a>
                             <br></br>
                             
                           </h3>
@@ -82,17 +82,38 @@ function App() {
                           </div>
                         </div>
 
-                        <div style={{minHeight:"100px"}} className="text-gray mb-2 ws-normal"><span className>A Landing page built for medical claims crypto start-up, BitClaims. (BitClaims is longer operational).</span></div>
+                        <div style={{minHeight:"100px"}} className="text-gray mb-2 ws-normal"><span className>A Landing page built for medical claims crypto start-up, BitClaims. (BitClaims is no longer operational).</span></div>
                         <div style={{minHeight:"100px"}} className="text-gray mb-2 ws-normal"><span className><b>Technologies used:</b> AngularJS</span></div>
 
                         <div className="d-flex justify-content-around f6">
-                        <FontAwesomeIcon icon={faGithub} className="fa-2x" />
-                        <FontAwesomeIcon icon={faExternalLinkAlt} className="fa-2x" />
+                        <a  target="_blank" href="https://github.com/FrederickIge/bitclaims-landing-page"><FontAwesomeIcon icon={faGithub} className="fa-2x" /></a>
+                        <a  target="_blank" href="https://frederickige.github.io/bitclaims-landing-page/#/"><FontAwesomeIcon icon={faExternalLinkAlt} className="fa-2x" /></a>
                         </div>
                       </div>
                     </div>
 
+                    <div className="col-sm-6 col-md-12 col-lg-6 col-xl-4 mb-3">
+                      <div className="github-component height-full text-left border border-gray-light bg-white rounded-1 p-3">
+                        <div className=" mb-1">
+                          <h3 className=" lh-condensed mb-1">
+                            <a target="_blank" href="https://github.com/FrederickIge/instagram-web-scraper">Instagram Scraper</a>
+                            <br></br>
+                            
+                          </h3>
+                          <div style ={{minHeight:"200px"}}>
+                          <img src={require('./insta.jpg')} style={{ width:"100%", height:"200px"}} alt="..." className={"rounded"}></img>
 
+                          </div>
+                        </div>
+
+                        <div style={{minHeight:"100px"}} className="text-gray mb-2 ws-normal"><span>A node script that runs headless chrome to scrape Instagram.com, given a hashtag string. </span></div>
+                        <div style={{minHeight:"100px"}} className="text-gray mb-2 ws-normal"><span><b>Technologies used:</b> Node, Puppeter, MongoDB</span></div>
+
+                        <div className="d-flex justify-content-around f6">
+                        <a  target="_blank" href="https://github.com/FrederickIge/instagram-web-scraper"><FontAwesomeIcon icon={faGithub} className="fa-2x" /></a>
+                        </div>
+                      </div>
+                    </div>
 
 
 
@@ -165,7 +186,9 @@ function App() {
                     </div>
                   </div>
                   <h2 className>Blog Posts</h2>
-                  <p className="f4 mb-4 text-gray">Articles I've written can be found on Medium or Dev.to</p>
+
+                  * Coming Soon *
+                  {/* <p className="f4 mb-4 text-gray">Articles I've written can be found on Medium or Dev.to</p>
                   <div className="d-sm-flex flex-wrap gutter-condensed mb-4">
                     <div className="col-sm-6 col-md-12 col-lg-6 col-xl-4 mb-3">
                       <div className="height-full text-left border border - gray - light bg-white rounded-1 p-3">
@@ -181,7 +204,7 @@ function App() {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
