@@ -17,9 +17,16 @@ function App() {
             <div className="d-md-flex border-md-bottom">
               <SideNav/>
               <div className="col-md-7 col-lg-8 col-xl-9 px-4 py-6 px-lg-7 border-top border-md-top-0" style={{backgroundColor: '#fafbfc'}}>
+                
+              <h2 className="text-center">Certifications and Clearance</h2>
+<br></br>
+<p className="text-center f3"> ServiceNow Certified System Administrator</p>
+<p className="text-center f3">Public Trust Clearance</p>
                 <div className="mx-auto" style={{maxWidth: '900px'}}>
-                  <h2 className>Projects</h2>
-                  <p className="f4 mb-4 text-gray">Links to projects and repository code avaliable </p>
+
+
+                  <h2 className="text-center">Projects</h2>
+                  <p className="f4 mb-4 text-gray text-center">Links to projects and repository code avaliable </p>
                   
                   <div className="d-sm-flex flex-wrap gutter-condensed mb-4">
                     <div className="col-sm-6 col-md-12 col-lg-6 col-xl-4 mb-3">
@@ -121,8 +128,8 @@ function App() {
 
 
                   </div>
-                  <h2 className>Technologies</h2>
-                  <p className="f4 mb-4 text-gray">Projects built in:</p>
+                  <h2 className="text-center">Technologies</h2>
+                  <p className="f4 mb-4 text-gray text-center">Projects built in:</p>
                   <div className="d-sm-flex flex-wrap gutter-condensed mb-4">
                     <div className="col-sm-6 col-md-12 col-lg-6 col-xl-4 mb-3">
                       <span  className="github-component position-relative hover-grow height-full no-underline d-flex flex-column flex-justify-center text-center border border-gray-light rounded-1 bg-white p-5">
@@ -185,7 +192,7 @@ function App() {
                       </span>
                     </div>
                   </div>
-                  <h2 className>Blog Posts</h2>
+                  <h2 className="text-center">Blog Posts</h2>
 
                   * Coming Soon *
                   {/* <p className="f4 mb-4 text-gray">Articles I've written can be found on Medium or Dev.to</p>
